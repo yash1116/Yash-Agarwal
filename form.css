@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+.nav{
+    border:1px solid black;
+    width: 100%;
+}
+ul{
+   float: right;
+   margin: 0;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 2em;
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 3em;
+}
+a{
+	color: orange;
+	border: 2em;
+}
+a:hover{
+   color: yellow;
+   background: black;
+}
+div{
+    display: inline-block;
+}
+form{
+	padding: 2em;
+	width:15em;
+    height: 20em;
+    display: inline-block;
+    color: black;
+    background-color: white;
+    border-radius: 1em;
+}
+h2{
+    	text-align: center;
+        padding: 20px;
+        color: white;
+
+    }
+button { 
+        border-radius: 2em;
+        display: inline-block;
+        background-color: purple; 
+        color: white; 
+        padding: 14px 20px; 
+        margin: 8px 0;  
+    }
+body{
+    background-image: url(https://freedesignfile.com/upload/2017/08/Purple-polar-lights-abstract-background-vector.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    }
+    p{
+        color:white;
+    }
